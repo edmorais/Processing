@@ -1,0 +1,40 @@
+#
+# Multiple live / recorded video projection (Processing 1.5 only!)
+# by Eduardo Morais 2012
+#
+# Configuration file
+#
+
+# window width & height:
+mp.width 			= 1024
+mp.height 			= 576
+# video/live positions (2 - 4):
+mp.gridPositions	= 3
+# start on fill screen mode:
+mp.fillScreen		= 0
+# fade effect speed (must be > 0):
+mp.fadeSpeed		= 4
+
+
+# allowed cameras array:
+live.allow			= 1
+# lock these cameras in their positions (-1 = none):
+live.lock			= -1
+# capture width:
+live.width			= 640
+# capture height:
+live.height			= 480
+# webcam widescreen adjust:
+live.ratioAdjust	= true
+
+
+# video select folder:
+video.dialog		= false
+# videos folder (if no dialog):
+video.folder		= videos
+# play at random:
+video.randomness 	= false
+# playing at start:
+video.playing		= true
+# allowed video formats, separated by pipes(|):
+video.formats 		= mp4|avi|mov|mpg|m4v|m2t|ts

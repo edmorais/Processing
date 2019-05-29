@@ -1,0 +1,3 @@
+
+Video3Ddots
+Video3Ddots.jar,core.jar,PeasyCam.jar,JMyron.jar
